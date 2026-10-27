@@ -116,28 +116,102 @@
       </div>
     </section>
 
-    <!-- Destinos temporários mínimos e semanticamente corretos para as seções futuras -->
-    <section id="sobre" class="section-placeholder" aria-label="Sobre mim">
-      <div class="placeholder-container">
-        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
-        <h2 class="placeholder-title">Sobre</h2>
+    <!-- Seção Sobre -->
+    <section id="sobre" class="content-section about-section" aria-labelledby="sobre-titulo">
+      <div class="section-container">
+        <div class="section-heading">
+          <span class="section-kicker">01 / SOBRE</span>
+          <h2 id="sobre-titulo" class="section-title">Um pouco sobre <span>mim.</span></h2>
+          <p class="section-lead">Tecnologia, criatividade e vontade de aprender — um passo de cada vez.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>Sou Felipão, ex-estudante de Desenvolvimento de Sistemas e estou explorando o universo do desenvolvimento front-end.</p>
+            <p>Gosto de transformar ideias em páginas claras, acessíveis e agradáveis de usar. Este portfólio é parte da minha jornada: um espaço para praticar, mostrar minha evolução e reunir os projetos que vou construindo.</p>
+            <p>Meu foco agora é fortalecer minha base em HTML, CSS e JavaScript, aprender com cada desafio e criar experiências cada vez melhores.</p>
+          </div>
+          <aside class="about-highlight">
+            <span class="highlight-symbol" aria-hidden="true">&lt;/&gt;</span>
+            <h3>Aprendizado contínuo</h3>
+            <p>Construindo, testando e melhorando projetos na prática.</p>
+            <div class="skill-list" aria-label="Tecnologias em estudo">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </aside>
+        </div>
       </div>
     </section>
 
-    <section id="projetos" class="section-placeholder" aria-label="Projetos">
-      <div class="placeholder-container">
-        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
-        <h2 class="placeholder-title">Projetos</h2>
+    <!-- Seção Projetos -->
+    <section id="projetos" class="content-section projects-section" aria-labelledby="projetos-titulo">
+      <div class="section-container">
+        <div class="section-heading">
+          <span class="section-kicker">02 / TRABALHOS</span>
+          <h2 id="projetos-titulo" class="section-title">Projetos em <span>evolução.</span></h2>
+          <p class="section-lead">Um registro do que estou construindo e aprendendo durante minha jornada.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-visual portfolio-visual" aria-hidden="true">
+              <div class="mini-window">
+                <div class="mini-window-bar"><i></i><i></i><i></i><span>meu-portfolio</span></div>
+                <div class="mini-window-content">
+                  <span class="mini-label">PORTFÓLIO • FRONT-END</span>
+                  <strong>Felipão<span>.</span></strong>
+                  <div class="mini-lines"><i></i><i></i><i></i></div>
+                  <div class="mini-chip-row"><i></i><i></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>PROJETO PESSOAL</span><span class="project-status"><i></i> Em desenvolvimento</span></div>
+              <h3>Portfólio pessoal</h3>
+              <p>Site para apresentar minha trajetória, minhas habilidades e os projetos que desenvolverei. Feito para praticar estrutura semântica, layout responsivo e interações com JavaScript.</p>
+              <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+              <span class="project-note">Você está vendo este projeto agora.</span>
+            </div>
+          </article>
+
+          <article class="project-card project-coming">
+            <div class="coming-visual" aria-hidden="true"><span>+</span><small>PRÓXIMO DESAFIO</small></div>
+            <div class="project-body">
+              <div class="project-meta"><span>EM BREVE</span><span class="project-status muted"><i></i> Planejamento</span></div>
+              <h3>Um novo projeto</h3>
+              <p>Este espaço será atualizado quando eu concluir meu próximo projeto. A ideia é incluir aqui uma demonstração, as tecnologias utilizadas e o que aprendi durante o desenvolvimento.</p>
+              <div class="project-tags"><span>Em definição</span></div>
+              <span class="project-note">Sem projetos inventados: novidades quando estiver pronto.</span>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="contato" class="section-placeholder" aria-label="Contato">
-      <div class="placeholder-container">
-        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
-        <h2 class="placeholder-title">Contato</h2>
+    <!-- Seção Contato -->
+    <section id="contato" class="content-section contact-section" aria-labelledby="contato-titulo">
+      <div class="section-container">
+        <div class="contact-panel">
+          <span class="section-kicker">03 / CONTATO</span>
+          <h2 id="contato-titulo" class="section-title">Vamos criar algo <span>legal?</span></h2>
+          <p class="section-lead">Estou construindo minha experiência em desenvolvimento front-end e aberto a trocar ideias sobre tecnologia, aprendizado e projetos.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:SEU-EMAIL-AQUI">Entrar em contato <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">Explorar GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="contact-setup-note">Antes de publicar, troque o e-mail e o link do GitHub pelos seus dados reais no arquivo <code>index.html</code>.</p>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <a href="#inicio" class="footer-brand">Felipão<span>.</span></a>
+      <p>Feito com HTML, CSS e JavaScript.</p>
+      <a href="#inicio" class="back-to-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
 
   <script src="script.js" defer></script>
 </body>
