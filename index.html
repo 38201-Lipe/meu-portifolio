@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Felipão, ex-estudante de Desenvolvimento de Sistemas focado em front-end. Transformando ideias em experiências digitais que fazem sentido.">
+  <meta name="author" content="Felipão">
+  <title>Felipão • Desenvolvedor Front-end</title>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho Fixo com Navegação -->
+  <header id="cabecalho-principal" class="site-header">
+    <div class="header-container">
+      <a href="#inicio" class="header-brand" aria-label="Felipão - Voltar ao início">
+        Felipão<span class="brand-dot" aria-hidden="true">.</span>
+      </a>
+
+      <!-- Botão Hambúrguer Mobile -->
+      <button 
+        id="btn-menu-mobile" 
+        class="menu-toggle-btn" 
+        type="button" 
+        aria-label="Abrir menu de navegação" 
+        aria-expanded="false" 
+        aria-controls="nav-menu"
+      >
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+
+      <!-- Navegação Principal -->
+      <nav id="nav-menu" class="site-nav" aria-label="Navegação primária">
+        <ul class="nav-list" role="list">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-link active" aria-current="page">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main id="conteudo-principal">
+    <!-- Seção A: Hero / Início -->
+    <section id="inicio" class="hero-section" aria-label="Apresentação inicial">
+      <!-- Detalhe Gráfico de Fundo (Acento Sutil) -->
+      <div class="hero-graphic-background" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="hero-grid-pattern"></div>
+      </div>
+
+      <div class="hero-container">
+        <!-- Etiqueta de Identificação -->
+        <div class="hero-badge">
+          <span class="badge-pulse" aria-hidden="true"></span>
+          <span class="badge-text">PORTFÓLIO • FRONT-END</span>
+        </div>
+
+        <!-- Título Principal com Tipografia Expressiva -->
+        <h1 class="hero-title">
+          Felipão<span class="accent-dot" aria-hidden="true">.</span>
+        </h1>
+
+        <!-- Mensagens Principais -->
+        <div class="hero-content">
+          <p class="hero-headline">
+            Transformando ideias em experiências digitais que fazem sentido.
+          </p>
+          <p class="hero-subtext">
+            Ex-estudante de Desenvolvimento de Sistemas, explorando o front-end e transformando aprendizado em projetos reais.
+          </p>
+        </div>
+
+        <!-- Ações Principais -->
+        <div class="hero-actions">
+          <a href="#projetos" id="btn-hero-projetos" class="btn btn-primary">
+            <span>Explorar projetos</span>
+            <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3.33334 8H12.6667M12.6667 8L8.66668 4M12.6667 8L8.66668 12" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#contato" id="btn-hero-contato" class="btn btn-secondary">
+            <span>Entrar em contato</span>
+          </a>
+        </div>
+
+        <!-- Detalhe Gráfico Editorial / Metadados Front-end -->
+        <div class="hero-meta-detail" aria-hidden="true">
+          <div class="meta-item">
+            <span class="meta-label">DISCIPLINA</span>
+            <span class="meta-value">HTML5 / CSS3 / Vanilla JS</span>
+          </div>
+          <div class="meta-separator"></div>
+          <div class="meta-item">
+            <span class="meta-label">STATUS</span>
+            <span class="meta-value"><span class="status-indicator"></span>Em constante evolução</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinos temporários mínimos e semanticamente corretos para as seções futuras -->
+    <section id="sobre" class="section-placeholder" aria-label="Sobre mim">
+      <div class="placeholder-container">
+        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
+        <h2 class="placeholder-title">Sobre</h2>
+      </div>
+    </section>
+
+    <section id="projetos" class="section-placeholder" aria-label="Projetos">
+      <div class="placeholder-container">
+        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
+        <h2 class="placeholder-title">Projetos</h2>
+      </div>
+    </section>
+
+    <section id="contato" class="section-placeholder" aria-label="Contato">
+      <div class="placeholder-container">
+        <span class="placeholder-tag">EM CONSTRUÇÃO</span>
+        <h2 class="placeholder-title">Contato</h2>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
